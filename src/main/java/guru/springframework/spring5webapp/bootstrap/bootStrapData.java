@@ -54,6 +54,7 @@ public class bootStrapData implements CommandLineRunner {
         book2.setPublisher(publisher1);
         publisher1.getBooks().add(book2);
 
+
         authorRepository.save(author2);
         bookRepository.save(book2);
 
